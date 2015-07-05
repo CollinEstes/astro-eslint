@@ -1,0 +1,32 @@
+{
+  "name": "astro-eslint",
+  "version": "1.0.0",
+  "description": "Astro module for running lint javascript with eslint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "astro test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://CollinEstes@github.com/CollinEstes/astro-eslint.git"
+  },
+  "keywords": [
+    "astro",
+    "eslint",
+    "lint",
+    "asset",
+    "pipeline"
+  ],
+  "author": "Collin Estes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CollinEstes/astro-eslint/issues"
+  },
+  "homepage": "https://github.com/CollinEstes/astro-eslint#readme",
+  "dependencies": {
+    "eslint": "^0.24.0"
+  },
+  "devDependencies": {
+    "astro": "^0.1.6"
+  }
+}
