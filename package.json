@@ -1,6 +1,6 @@
 {
   "name": "astro-eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Astro module for running lint javascript with eslint.",
   "main": "index.js",
   "scripts": {

@@ -9,14 +9,14 @@ var astroEslint = require('../')
 
 describe('astro-eslint', function () {
 
-	it('should return command as jshint', function () {
+	it('should return command as eslint', function () {
 		var result = astroEslint(cwd, {});
-		expect(result.cmd.indexOf('astro-jshint/node_modules/.bin/eslint')).to.not.equal(-1);
+		expect(result.cmd.indexOf('astro-eslint/node_modules/.bin/eslint')).to.not.equal(-1);
 	});
 
 	it('should return proper options', function () {
 		var result = astroEslint(cwd, {});
-		expect(result.args[result.args.length -1]).to.be.equal(cwd);
-		expect(result.args.length).to.be.equal(3);
+		expect(result.args[result.args.length -1]).to.be.equal('.');
+		expect(result.args.length).to.be.equal(5);
 	});
 });
