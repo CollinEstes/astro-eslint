@@ -17,5 +17,5 @@ None
 
 
 ## Want options?
-
+ 
 [Submit a PR or open an issue](https://github.com/CollinEstes/astro-eslint)
